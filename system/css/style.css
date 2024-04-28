@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+body {
+ font-family: "Cutive Mono", monospace;
+ background-color: #565695;
+ color: #c6c6ff;
+ font-size: 24px;
+ text-align: center;
+}
+a {
+ color: #c6c6ff;
+}
+header {
+ border-radius: 1%;
+ background-color: #343477;
+ border-bottom : solid 1px #c6c6ff;
+ padding: 8px;
+}
+hr {
+ color: #c6c6ff;
+}
+a {
+ text-decoration: none;
+}
+td {
+ border: 1px solid;
+ padding: 5px 0;
+}
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+.dropdown-content {
+display: none;
+}
+.dropdown:hover .dropdown-content {
+ display: block;
+ background-color: #343477;
+ padding: 4px;
+}
+th {
+ letter-spacing: -5px;
+ padding-right: 10px;
+}
+li {
+ list-style: none;
+ padding: 8px 0;
+}
+#provas, #horarios, #materias {
+ border-radius: 1%;
+ margin: 8px; 
+ display: grid;
+ border: solid 1px #c6c6ff;
+ background-color: #222238;
+}
+.text-title {
+ font-size: larger;
+ margin: 8px 0;
+}
+.text-subtitle {
+ font-size: large;
+ margin: 4px 0;
+}
+.text-paragraph, .text-table {
+ font-size: medium;
+ margin: 2px 0;
+ letter-spacing: 1.5px;
+}
+.text-source {
+ font-size: small;
+ margin: 8px 0;
+}
+.text-table {
+ letter-spacing: -2px;
+ font-size: small;
+}
