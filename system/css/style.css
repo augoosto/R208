@@ -14,6 +14,7 @@ header {
  background-color: #343477;
  border-bottom : solid 1px #c6c6ff;
  padding: 8px;
+ opacity: 75%;
 }
 hr {
  color: #c6c6ff;
@@ -26,13 +27,13 @@ td {
  padding: 5px 0;
 }
 .image-background {
- pointer-events: none;
- display: flex;
- position: fixed;
- bottom:0px;
- z-index: -1;
- height: 20%;
+ display: block;
  width: 100%;
+ bottom: 0px;
+ position: fixed;
+ z-index: -1;
+ height: auto;
+ opacity: 75%;
 }
 .dropdown:hover .dropdown-content {
  display: block;
@@ -54,6 +55,7 @@ li {
  padding: 8px 0;
 }
 #avaliacoes, #agenda, #conteudos {
+ opacity: 75%;
  border-radius: 1%;
  margin: 8px; 
  display: grid;
