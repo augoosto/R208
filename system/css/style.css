@@ -54,7 +54,7 @@ li {
  list-style: none;
  padding: 8px 0;
 }
-#avaliacoes, #agenda, #conteudos {
+#avaliacoes, #agenda, #conteudos, #sugestao {
  opacity: 75%;
  border-radius: 1%;
  margin: 8px; 
